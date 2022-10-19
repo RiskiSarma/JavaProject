@@ -10,22 +10,14 @@ package Project1;
  */
 public class Calculator {
     String Nama;
-    Double nilai1;
+    int bil1, bil2, hasil;
 
-    double luasPersegi(double sisi){
-        return sisi*sisi;
-    }
-
-    Calculator(String Nama){
+    public Calculator(String Nama) {
         this.Nama = Nama;
     }
-
-    public double getSin() {
-        return nilai1;
+    public static void Penjumlahan(int bil1, int bil2) {
+        int hasil = bil1 + bil2;
+        return hasil;
     }
-
-    public void setSin(Double nilai1) {
-        this.nilai1 = Math.sin(nilai1);
-    }
-
+    
 }
