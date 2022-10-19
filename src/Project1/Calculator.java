@@ -10,9 +10,18 @@ package Project1;
  */
 public class Calculator {
     String Nama;
+    Double nilai1;
 
     public Calculator(String Nama) {
         this.Nama = Nama;
     }
-    
+
+    public double getSin() {
+        return nilai1;
+    }
+
+    public void setSin(Double nilai1) {
+        this.nilai1 = Math.sin(nilai1);
+    }
+
 }
