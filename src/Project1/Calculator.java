@@ -12,7 +12,11 @@ public class Calculator {
     String Nama;
     Double nilai1;
 
-    public Calculator(String Nama) {
+    double luasPersegi(double sisi){
+        return sisi*sisi;
+    }
+
+    Calculator(String Nama){
         this.Nama = Nama;
     }
 
