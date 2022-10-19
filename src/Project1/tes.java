@@ -9,5 +9,7 @@ package Project1;
  * @author ASUS
  */
 public class tes {
-    
+  public static void main(String[] args) {
+    System.out.println("Hello Tes");
+  }
 }
