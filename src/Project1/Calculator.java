@@ -11,7 +11,11 @@ package Project1;
 public class Calculator {
     String Nama;
 
-    public Calculator(String Nama) {
+    double luasPersegi(double sisi){
+        return sisi*sisi;
+    }
+
+    Calculator(String Nama){
         this.Nama = Nama;
     }
     
