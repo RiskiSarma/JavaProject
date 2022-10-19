@@ -1,5 +1,5 @@
 package Project1;
 
-public class tesgua {
+public class tes1 {
     
 }
