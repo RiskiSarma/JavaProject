@@ -11,8 +11,11 @@ package Project1;
 public class Calculator {
     String Nama;
 
-    public Calculator(String Nama) {
-        this.Nama = Nama;
+//membuat method keliling persegi
+    double KelilingPersegi(double sisi){
+        return sisi+sisi+sisi+sisi;
     }
-    
+    Calculator(String Nama){
+        this.Nama =Nama;
+    }
 }
