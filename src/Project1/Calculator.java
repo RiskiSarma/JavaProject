@@ -4,6 +4,8 @@
  */
 package Project1;
 
+import java.io.Serial;
+
 /**
  *
  * @author ASUS
@@ -12,20 +14,16 @@ public class Calculator {
     String Nama;
     Double nilai1;
 
-    double luasPersegi(double sisi){
-        return sisi*sisi;
+    double luasPersegi(double sisi) {
+        return sisi * sisi;
     }
 
-    Calculator(String Nama){
+    Calculator(String Nama) {
         this.Nama = Nama;
     }
 
-    public double getSin() {
-        return nilai1;
-    }
-
-    public void setSin(Double nilai1) {
-        this.nilai1 = Math.sin(nilai1);
+    double sin(double nilaiSin) {
+        return Math.sin(nilaiSin);
     }
 
 }
