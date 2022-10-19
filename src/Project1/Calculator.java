@@ -13,6 +13,13 @@ public class Calculator {
 
     public Calculator(String Nama) {
         this.Nama = Nama;
+        public static void main(String[] args){
+        double sudut;        
+        System.out.println("masukkan sudut");
+        Scanner sP= new Scanner(System.in);
+        sudut =sP.nextInt();
+        
+        System.out.println("Sin = " Math.sin(Math.toRadians(sudut)));
     }
-    
 }
+    
