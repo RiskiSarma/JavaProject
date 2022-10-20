@@ -1,9 +1,9 @@
 package Project1;
 
-public class Calculator {
+public class calculator {
   String name;
 
-  Calculator(String temp) {
+  calculator(String temp) {
     name = temp;
   }
 
@@ -17,6 +17,10 @@ public class Calculator {
 
   double sisiPersegi(double sisi) {
     return sisi * sisi;
+  }
+  
+    double volumeBalok(double panjang, double lebar, double tinggi) {
+    return panjang * lebar * tinggi;
   }
 
 }
