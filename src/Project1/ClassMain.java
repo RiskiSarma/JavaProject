@@ -11,6 +11,6 @@ package Project1;
 public class ClassMain {
   public static void main(String[] args) {
     Calculator cal = new Calculator("Ti-2B");
-    System.out.println(cal.sin(10));
+    System.out.println("Alfi Syahrin Sin = " + cal.sin(10));
   }
 }
