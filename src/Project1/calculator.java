@@ -14,4 +14,9 @@ public class Calculator {
   double sin(double nilaiSin) {
     return Math.sin(nilaiSin);
   }
+
+  double sisiPersegi(double sisi) {
+    return sisi * sisi;
+  }
+
 }
