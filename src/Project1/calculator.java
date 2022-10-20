@@ -8,8 +8,6 @@ package Project1;
  *
  * @author ASUS
  */
-public class ClassMain {
-    public static void main (String[] args){
-       
-}
+public class calculator {
+    String Nama;
 }
