@@ -10,7 +10,13 @@ package Project1;
  */
 public class ClassMain {
     public static void main (String[] args){
+<<<<<<< HEAD
+       Calculator Amzar = new Calculator("Muhammad Amzar");
+       System.out.println("keliling persegi:"+Amzar.KelilingPersegi(10));
+    }
+=======
         Calculator cdhiauddin = new Calculator("Muhammad Dhiaudin");
         System.out.println("Luas persegi panjang: "+cdhiauddin.luasPersegi(10));
 }
+>>>>>>> e436f678a162a272f858ae916df57ce7f533285e
 }
