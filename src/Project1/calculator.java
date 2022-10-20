@@ -6,4 +6,12 @@ public class Calculator {
   Calculator(String temp) {
     name = temp;
   }
+
+  double luasPersegi(double sisi) {
+    return sisi * sisi;
+  }
+
+  double sin(double nilaiSin) {
+    return Math.sin(nilaiSin);
+  }
 }
