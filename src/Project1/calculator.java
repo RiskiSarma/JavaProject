@@ -1,7 +1,9 @@
 package Project1;
 
 public class Calculator {
-    public static void main(String[] args) {
-        System.out.println("Tes");
-    }
+  String name;
+
+  Calculator(String temp) {
+    name = temp;
+  }
 }
