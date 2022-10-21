@@ -6,4 +6,9 @@ public class Calculator {
     Calculator(String nama){
         this.nama = nama;
     }
+
+    public double penjumlahan(double bil1, double bil2){
+        double hasil=bil1+bil2;
+        return hasil;
+    }
 }
