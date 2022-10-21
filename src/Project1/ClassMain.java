@@ -35,6 +35,9 @@ public class ClassMain {
         Calculator oZakyAbrar = new Calculator("Zaky Abrar");
         System.out.println(oZakyAbrar.nama + " hasil luas trapesium : " + oZakyAbrar.luastrapesium(6, 7, 4));
 
+        Calculator oMaula = new Calculator("Maula");
+        System.out.println(oMaula.nama + " hasil Volume Balok : " + oMaula.volumebalok(3, 6, 9));
+
     }
 
 }

@@ -76,4 +76,10 @@ public class Calculator {
         double u = 1.5 * l;
         return u;
     }
+
+    // MaulaJuwandaPratama
+    public double volumebalok(double p, double l, double t) {
+        double v = p * l * t;
+        return v;
+    }
 }
