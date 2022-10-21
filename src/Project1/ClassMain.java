@@ -10,10 +10,13 @@ public class ClassMain {
         
         Calculator ofuzlaazkia = new Calculator("Fuzla azkia");
         System.out.println(ofuzlaazkia.nama + " Hasil Modulus : " + ofuzlaazkia.modulus (20,3));
+
         Calculator oHusna = new Calculator("Husna");
-        
         System.out.println(oHusna.nama + " Hasil pembagian : " + oHusna.pembagian (20,3));
     
+        Calculator omitha = new Calculator("mitha");
+        System.out.println(omitha.nama + " Hasil pangkat : " + omitha.pangkat(2, 4));
+
     }
 
     }

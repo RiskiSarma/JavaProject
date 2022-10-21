@@ -29,4 +29,12 @@ public int pembagian(int angka1, int angka2) {
     return hasil;
 }
 
+//Mitha Zahara
+public double pangkat(int angka1, int pangkat){
+    int hasil=1;
+    for(int i=1;i<=pangkat;i++){
+        hasil=hasil*angka1;
+    }
+    return hasil;
+}
 }
