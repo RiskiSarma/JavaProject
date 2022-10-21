@@ -19,6 +19,9 @@ public class ClassMain {
         
         Calculator oDhynanti = new Calculator("Dhynanti");
          oDhynanti.Persentase(2, 20);
+
+         Calculator oAmzar = new Calculator("Muhammad amzar");
+         System.out.println(oAmzar.nama + " Hasil Keliling persegi : " + oAmzar.KelilingPersegi(10));
     }
 
     }

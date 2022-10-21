@@ -45,4 +45,12 @@ public double pangkat(int angka1, int pangkat){
     System.out.print("%");
     return persent;
     }
-}
+
+//Muhammad Amzar
+      public int KelilingPersegi(int sisi){
+            return sisi+sisi+sisi+sisi;
+        }
+       
+    }
+
+
