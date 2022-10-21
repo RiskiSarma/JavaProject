@@ -16,7 +16,9 @@ public class ClassMain {
     
         Calculator omitha = new Calculator("mitha");
         System.out.println(omitha.nama + " Hasil pangkat : " + omitha.pangkat(2, 4));
-
+        
+        Calculator oDhynanti = new Calculator("Dhynanti");
+         oDhynanti.Persentase(2, 20);
     }
 
     }

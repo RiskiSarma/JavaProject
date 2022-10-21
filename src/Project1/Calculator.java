@@ -37,4 +37,12 @@ public double pangkat(int angka1, int pangkat){
     }
     return hasil;
 }
+//Dhynanti Amanda
+ public int Persentase(int bil1,int bil2){
+      int  persent;
+      persent=((bil1*100)/bil2);
+    System.out.print(" Dhynanti hasil persen nya adalah : " +persent);
+    System.out.print("%");
+    return persent;
+    }
 }
