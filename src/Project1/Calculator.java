@@ -54,7 +54,10 @@ public double pangkat(int angka1, int pangkat){
         public double sin(double nilai){
             return Math.sin(nilai);
         }
-       
+//haiqal murthada
+        public double luasPersegiPanjang(double panjang, double lebar){
+            return panjang*lebar;
+        }
     }
 
 

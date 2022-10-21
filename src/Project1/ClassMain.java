@@ -22,9 +22,12 @@ public class ClassMain {
 
          Calculator oAmzar = new Calculator("Muhammad amzar");
          System.out.println(oAmzar.nama + " Hasil Keliling persegi : " + oAmzar.KelilingPersegi(10));
-         
+
          Calculator oAlfi = new Calculator("Alfi Syahrin");
-         System.out.println(oAlfi.nama + " sin : " + oAmzar.KelilingPersegi(5));
+         System.out.println(oAlfi.nama + " sin : " + oAlfi.sin(5));
+
+         Calculator oHaiqal = new Calculator("haiqal murthada");
+         System.out.println(oHaiqal.nama + " sin : " + oHaiqal.luasPersegiPanjang(5,5));
     }
 
     }
