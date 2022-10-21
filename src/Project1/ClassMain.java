@@ -40,6 +40,9 @@ public class ClassMain {
         
         Calculator oRiskisarma = new Calculator("Riski Sarma");
        System.out.println(oRiskisarma.nama+ " hasil tan: " + oRiskisarma.sudut(20));
+       
+       Calculator osalmiani = new Calculator("salmiani");
+       System.out.println (osalmiani.nama + "hasil cos :" + osalmiani.cos(3,5));
     }
 
 }
