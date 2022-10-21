@@ -7,5 +7,9 @@ public class ClassMain {
     
     Calculator oDea = new Calculator("Dea Syafira");
         System.out.println(oDea.nama+" Hasil perkalian : " + oDea.perkalian(10,10));
+        
+    Calculator ofuzlaazkia = new Calculator("Fuzla azkia");
+        System.out.println(ofuzlaazkia.nama + " Hasil Modulus : " + ofuzlaazkia.modulus (20,3));
     }
-}
+
+    }

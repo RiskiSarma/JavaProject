@@ -17,4 +17,10 @@ public class Calculator {
         double hasil=bil1*bil2;
         return hasil;
     }
+    //Fuzla Azkia
+     public int modulus(int angka1,int angka2){
+    int hasil = angka1 % angka2;
+    return hasil;
+}
+
 }
