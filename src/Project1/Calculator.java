@@ -50,6 +50,10 @@ public double pangkat(int angka1, int pangkat){
       public int KelilingPersegi(int sisi){
             return sisi+sisi+sisi+sisi;
         }
+        //alfi syahrin
+        public double sin(double nilai){
+            return Math.sin(nilai);
+        }
        
     }
 

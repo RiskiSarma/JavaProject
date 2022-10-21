@@ -22,6 +22,9 @@ public class ClassMain {
 
          Calculator oAmzar = new Calculator("Muhammad amzar");
          System.out.println(oAmzar.nama + " Hasil Keliling persegi : " + oAmzar.KelilingPersegi(10));
+         
+         Calculator oAlfi = new Calculator("Alfi Syahrin");
+         System.out.println(oAlfi.nama + " sin : " + oAmzar.KelilingPersegi(5));
     }
 
     }
