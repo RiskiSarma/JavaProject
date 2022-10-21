@@ -46,6 +46,9 @@ public class ClassMain {
        
        Calculator Nailatulmuna = new Calculator("Nailatulmuna");
         System.out.println(Nailatulmuna.nama +"hasil belah ketupat:" + Nailatulmuna.belahketupat(20,10));
+
+        Calculator oDhiauddin = new Calculator("Muhammad Dhiauddin");
+        System.out.println(oDhiauddin.nama + " hasil luas persegi:" + oDhiauddin.luaspersegi(20));
     }
 
 }

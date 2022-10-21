@@ -45,7 +45,7 @@ public class Calculator {
         int persent;
         persent = ((bil1 * 100) / bil2);
         System.out.print(" Dhynanti hasil persen nya adalah : " + persent);
-        System.out.print("%");
+        System.out.println("%");
         return persent;
     }
 
@@ -96,5 +96,10 @@ public class Calculator {
        //nailatul muna
        public double belahketupat(double d1, double d2){
         return 0.5*d1*d2;
+       }
+
+       //muhammad dhiauddin
+       public double luaspersegi(double num1){
+        return num1*num1;
        }
 }
