@@ -23,4 +23,10 @@ public class Calculator {
     return hasil;
 }
 
+// Nurjannatul Husna
+public int pembagian(int angka1, int angka2) {
+    int hasil = angka1 / angka2;
+    return hasil;
+}
+
 }
