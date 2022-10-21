@@ -88,8 +88,8 @@ public class Calculator {
         return hasil;
     }
         //salmiani
-        public double cos (double angka1,double angka2){
-        double hasil = angka1 % angka2;
+       public double cos(double angka1){
+        double hasil= Math.cos(Math.toRadians(angka1));
         return hasil;
         }
 }
