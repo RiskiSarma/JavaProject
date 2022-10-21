@@ -86,5 +86,10 @@ public class Calculator {
     public double sudut(double angka1){
         double hasil= Math.tan(Math.toRadians(angka1));
         return hasil;
-}
+    }
+        //salmiani
+        public double cos (double angka1,double angka2){
+        double hasil = angka1 % angka2;
+        return hasil;
+        }
 }
