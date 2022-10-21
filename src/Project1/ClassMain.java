@@ -43,6 +43,9 @@ public class ClassMain {
        
        Calculator osalmiani = new Calculator("salmiani");
        System.out.println (osalmiani.nama + "hasil cos :" + osalmiani.cos(5));
+       
+       Calculator Nailatulmuna = new Calculator("Nailatulmuna");
+        System.out.println(Nailatulmuna.nama +"hasil belah ketupat:" + Nailatulmuna.belahketupat(20,10));
     }
 
 }

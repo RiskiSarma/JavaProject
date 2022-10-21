@@ -92,4 +92,9 @@ public class Calculator {
         double hasil= Math.cos(Math.toRadians(angka1));
         return hasil;
         }
+       
+       //nailatul muna
+       public double belahketupat(double d1, double d2){
+        return 0.5*d1*d2;
+       }
 }
