@@ -37,7 +37,9 @@ public class ClassMain {
 
         Calculator oMaula = new Calculator("Maula");
         System.out.println(oMaula.nama + " hasil Volume Balok : " + oMaula.volumebalok(3, 6, 9));
-
+        
+        Calculator oRiskisarma = new Calculator("Riski Sarma");
+       System.out.println(oRiskisarma.nama+ " hasil tan: " + oRiskisarma.sudut(20));
     }
 
 }

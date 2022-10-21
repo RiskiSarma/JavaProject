@@ -82,4 +82,9 @@ public class Calculator {
         double v = p * l * t;
         return v;
     }
+    //Rizki Saputra Sarma
+    public double sudut(double angka1){
+        double hasil= Math.tan(Math.toRadians(angka1));
+        return hasil;
+}
 }
