@@ -27,7 +27,11 @@ public class ClassMain {
          System.out.println(oAlfi.nama + " sin : " + oAlfi.sin(5));
 
          Calculator oHaiqal = new Calculator("haiqal murthada");
-         System.out.println(oHaiqal.nama + " sin : " + oHaiqal.luasPersegiPanjang(5,5));
+         System.out.println(oHaiqal.nama + " luas persegi panjang : " + oHaiqal.luasPersegiPanjang(5,5));
+
+         Calculator oMunawarIman = new Calculator("munawar iman");
+         System.out.println(oMunawarIman.nama + " hasil luas kubus : " + oMunawarIman.luaskubus(6));
+ 
     }
 
     }

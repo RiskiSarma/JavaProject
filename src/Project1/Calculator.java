@@ -58,6 +58,11 @@ public double pangkat(int angka1, int pangkat){
         public double luasPersegiPanjang(double panjang, double lebar){
             return panjang*lebar;
         }
+//munawar iman
+   public int luaskubus(int sisi){
+         int hasil= 6*sisi*sisi;
+        return hasil;
+}
     }
 
 
