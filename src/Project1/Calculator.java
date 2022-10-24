@@ -107,5 +107,10 @@ public class Calculator {
        public double sisipersegi(double luas){
         return Math.sqrt(luas);
        }
-
+       
+       //teuku firmansyah
+        double volume_bola(double jari){
+        double hasil = jari*jari*jari*3.14*4/3;
+        return hasil;
+    }
 }
