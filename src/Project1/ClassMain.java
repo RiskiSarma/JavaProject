@@ -52,5 +52,8 @@ public class ClassMain {
 
         Calculator oMuhammadkadar = new Calculator("Muhammadkadar");
         System.out.println(oMuhammadkadar.nama + "hasil sisi persegi : "+ oMuhammadkadar.sisipersegi(20));
+    
+        Calculator firman = new Calculator ("firman");
+        System.out.println(firman.nama + " hasil penjumlahan :" + firman.volume_bola(10));
     }
 }
