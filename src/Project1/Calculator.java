@@ -102,4 +102,10 @@ public class Calculator {
        public double luaspersegi(double num1){
         return num1*num1;
        }
+
+       //muhammad kadar
+       public double sisipersegi(double luas){
+        return Math.sqrt(luas);
+       }
+
 }

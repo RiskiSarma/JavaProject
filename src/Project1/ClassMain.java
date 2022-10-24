@@ -49,6 +49,8 @@ public class ClassMain {
 
         Calculator oDhiauddin = new Calculator("Muhammad Dhiauddin");
         System.out.println(oDhiauddin.nama + " hasil luas persegi:" + oDhiauddin.luaspersegi(20));
-    }
 
+        Calculator oMuhammadkadar = new Calculator("Muhammadkadar");
+        System.out.println(oMuhammadkadar.nama + "hasil sisi persegi : "+ oMuhammadkadar.sisipersegi(20));
+    }
 }
