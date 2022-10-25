@@ -58,5 +58,8 @@ public class ClassMain {
 
         Calculator akmal = new Calculator("akmal");
         System.out.println(akmal.nama + " jariLingkaran :" + akmal.jariLingkaran(3.14));
+
+         Calculator oAndiny = new Calculator("Andiny");
+        System.out.println(oAndiny.nama+" Hasil pengurangan : " + oAndiny.pengurangan(10,10));
     }
 }

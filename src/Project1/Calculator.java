@@ -123,4 +123,9 @@ public class Calculator {
            double hasil = 3.14 * jari * jari;
            return hasil;
     }
+        //Andiny
+        double pengurangan(double angka1, double angka2){
+        double hasil = angka1 - angka2;
+        return hasil;
+    }
 }
