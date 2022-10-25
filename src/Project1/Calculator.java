@@ -117,5 +117,10 @@ public class Calculator {
         double jariLingkaran(double jari) {
            double hasil = 3.14 * jari;
            return hasil;
+        }
+        //rahmad kurniawan
+           double luasLingkaran(double jari) {
+           double hasil = 3.14 * jari * jari;
+           return hasil;
     }
 }
