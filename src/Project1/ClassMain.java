@@ -55,5 +55,8 @@ public class ClassMain {
     
         Calculator firman = new Calculator ("firman");
         System.out.println(firman.nama + " hasil penjumlahan :" + firman.volume_bola(10));
+
+        Calculator akmal = new Calculator("akmal");
+        System.out.println(akmal.nama + " jariLingkaran :" + akmal.jariLingkaran(3.14));
     }
 }

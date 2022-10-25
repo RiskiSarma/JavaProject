@@ -112,5 +112,10 @@ public class Calculator {
         double volume_bola(double jari){
         double hasil = jari*jari*jari*3.14*4/3;
         return hasil;
+        }
+        //akmal sutansyah
+        double jariLingkaran(double jari) {
+           double hasil = 3.14 * jari;
+           return hasil;
     }
 }
